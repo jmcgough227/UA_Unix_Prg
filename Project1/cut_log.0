@@ -1,0 +1,161 @@
+jrm43@unix:~/Project1$ bash -x cut.sh 
++ export 'PS4=% '
++ PS4='% '
+% cut -f1 -d, /usr/share/distro-info/ubuntu.csv
+version
+4.10
+5.04
+5.10
+6.06 LTS
+6.10
+7.04
+7.10
+8.04 LTS
+8.10
+9.04
+9.10
+10.04 LTS
+10.10
+11.04
+11.10
+12.04 LTS
+12.10
+13.04
+13.10
+14.04 LTS
+14.10
+15.04
+15.10
+16.04 LTS
+% cut -f2 -d, /usr/share/distro-info/ubuntu.csv
+codename
+Warty Warthog
+Hoary Hedgehog
+Breezy Badger
+Dapper Drake
+Edgy Eft
+Feisty Fawn
+Gutsy Gibbon
+Hardy Heron
+Intrepid Ibex
+Jaunty Jackalope
+Karmic Koala
+Lucid Lynx
+Maverick Meerkat
+Natty Narwhal
+Oneiric Ocelot
+Precise Pangolin
+Quantal Quetzal
+Raring Ringtail
+Saucy Salamander
+Trusty Tahr
+Utopic Unicorn
+Vivid Vervet
+Wily Werewolf
+Xenial Xerus
+% cut -f2-3 -d, /usr/share/distro-info/ubuntu.csv
+codename,series
+Warty Warthog,warty
+Hoary Hedgehog,hoary
+Breezy Badger,breezy
+Dapper Drake,dapper
+Edgy Eft,edgy
+Feisty Fawn,feisty
+Gutsy Gibbon,gutsy
+Hardy Heron,hardy
+Intrepid Ibex,intrepid
+Jaunty Jackalope,jaunty
+Karmic Koala,karmic
+Lucid Lynx,lucid
+Maverick Meerkat,maverick
+Natty Narwhal,natty
+Oneiric Ocelot,oneiric
+Precise Pangolin,precise
+Quantal Quetzal,quantal
+Raring Ringtail,raring
+Saucy Salamander,saucy
+Trusty Tahr,trusty
+Utopic Unicorn,utopic
+Vivid Vervet,vivid
+Wily Werewolf,wily
+Xenial Xerus,xenial
+% cut -f1-3 -d, /usr/share/distro-info/ubuntu.csv
+version,codename,series
+4.10,Warty Warthog,warty
+5.04,Hoary Hedgehog,hoary
+5.10,Breezy Badger,breezy
+6.06 LTS,Dapper Drake,dapper
+6.10,Edgy Eft,edgy
+7.04,Feisty Fawn,feisty
+7.10,Gutsy Gibbon,gutsy
+8.04 LTS,Hardy Heron,hardy
+8.10,Intrepid Ibex,intrepid
+9.04,Jaunty Jackalope,jaunty
+9.10,Karmic Koala,karmic
+10.04 LTS,Lucid Lynx,lucid
+10.10,Maverick Meerkat,maverick
+11.04,Natty Narwhal,natty
+11.10,Oneiric Ocelot,oneiric
+12.04 LTS,Precise Pangolin,precise
+12.10,Quantal Quetzal,quantal
+13.04,Raring Ringtail,raring
+13.10,Saucy Salamander,saucy
+14.04 LTS,Trusty Tahr,trusty
+14.10,Utopic Unicorn,utopic
+15.04,Vivid Vervet,vivid
+15.10,Wily Werewolf,wily
+16.04 LTS,Xenial Xerus,xenial
+% cut -f4- -d, /usr/share/distro-info/ubuntu.csv
+created,release,eol,eol-server
+2004-03-05,2004-10-20,2006-04-30
+2004-10-20,2005-04-08,2006-10-31
+2005-04-08,2005-10-12,2007-04-13
+2005-10-12,2006-06-01,2009-07-14,2011-06-01
+2006-06-01,2006-10-26,2008-04-25
+2006-10-26,2007-04-19,2008-10-19
+2007-04-19,2007-10-18,2009-04-18
+2007-10-18,2008-04-24,2011-05-12,2013-05-09
+2008-04-24,2008-10-30,2010-04-30
+2008-10-30,2009-04-23,2010-10-23
+2009-04-23,2009-10-29,2011-04-29
+2009-10-29,2010-04-29,2013-05-09,2015-04-29
+2010-04-29,2010-10-10,2012-04-10
+2010-10-10,2011-04-28,2012-10-28
+2011-04-28,2011-10-13,2013-05-09
+2011-10-13,2012-04-26,2017-04-26
+2012-04-26,2012-10-18,2014-05-16
+2012-10-18,2013-04-25,2014-01-27
+2013-04-25,2013-10-17,2014-07-17
+2013-10-17,2014-04-17,2019-04-17
+2014-04-17,2014-10-23,2015-07-23
+2014-10-23,2015-04-23,2016-01-23
+2015-04-23,2015-10-22,2016-07-22
+2015-10-22,2016-04-21,2021-04-21
+% cut -f4- -d, '--output-delimiter=|' /usr/share/distro-info/ubuntu.csv
+created|release|eol|eol-server
+2004-03-05|2004-10-20|2006-04-30
+2004-10-20|2005-04-08|2006-10-31
+2005-04-08|2005-10-12|2007-04-13
+2005-10-12|2006-06-01|2009-07-14|2011-06-01
+2006-06-01|2006-10-26|2008-04-25
+2006-10-26|2007-04-19|2008-10-19
+2007-04-19|2007-10-18|2009-04-18
+2007-10-18|2008-04-24|2011-05-12|2013-05-09
+2008-04-24|2008-10-30|2010-04-30
+2008-10-30|2009-04-23|2010-10-23
+2009-04-23|2009-10-29|2011-04-29
+2009-10-29|2010-04-29|2013-05-09|2015-04-29
+2010-04-29|2010-10-10|2012-04-10
+2010-10-10|2011-04-28|2012-10-28
+2011-04-28|2011-10-13|2013-05-09
+2011-10-13|2012-04-26|2017-04-26
+2012-04-26|2012-10-18|2014-05-16
+2012-10-18|2013-04-25|2014-01-27
+2013-04-25|2013-10-17|2014-07-17
+2013-10-17|2014-04-17|2019-04-17
+2014-04-17|2014-10-23|2015-07-23
+2014-10-23|2015-04-23|2016-01-23
+2015-04-23|2015-10-22|2016-07-22
+2015-10-22|2016-04-21|2021-04-21
+jrm43@unix:~/Project1$ exit
+exit

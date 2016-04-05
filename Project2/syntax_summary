@@ -1,0 +1,41 @@
+#!/bin/bash
+
+FILES="$(ls -1 $1 | wc -l)"
+LINES="$((find $1 -print0 -name '*.h' -o -name '*.c' | xargs -0 cat) | wc -l)"
+iREPORT="/tmp/report.xml"
+
+srcml $1 -o $REPORT
+
+echo "# Code Summary"
+echo
+echo "* Directory: $1"
+echo "* Files: $FILES"
+echo "* LOC: $LINES"
+echo
+
+IF=$(grep "<if" $REPORT -o | wc -l)
+WHILE=$(grep "<while" $REPORT -o | wc -l)
+FOR=$(grep "<for" $REPORT -o | wc -l)
+DOWHILE=$(grep "<do" $REPORT -o | wc -l)
+SWITCH=$(grep "<switch" $REPORT -o | wc -l)
+CASE=$(grep "<case" $REPORT -o | wc -l)
+EXPRS=$(grep "<expr" $REPORT -o | wc -l)
+VAR=$(grep "<decl_stmt" $REPORT -o | wc -l)
+STRUCT=$(grep "<struct" $REPORT -o | wc -l)
+CALLFUNC=$(grep "<call" $REPORT -o | wc -l)
+DEFFUNC=$(grep "<function" $REPORT -o | wc -l)
+DECLFUNC=$(grep "<function_decl" $REPORT -o | wc -l)
+
+echo "* if: $IF
+* while: $WHILE
+* for: $FOR
+* do while: $DOWHILE
+* switch: $SWITCH
+* case: $CASE
+* expr statements: $EXPRS
+* var declarations: $VAR
+* structs: $STRUCT
+* function calls: $CALLFUNC
+* function defs: $DEFFUNC
+* function decls: $DECLFUNC" | sort -t ":" -k 2,2 -n -r
+

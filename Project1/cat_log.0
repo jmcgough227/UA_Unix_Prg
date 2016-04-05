@@ -1,0 +1,74 @@
+jrm43@unix:~/Project1$ bash -x cat.sh
++ export 'PS4=% '
++ PS4='% '
+% cat /usr/include/stab.h
+#ifndef __GNU_STAB__
+
+/* Indicate the GNU stab.h is in use.  */
+
+#define __GNU_STAB__
+
+#define __define_stab(NAME, CODE, STRING) NAME=CODE,
+
+enum __stab_debug_code
+{
+#include <bits/stab.def>
+LAST_UNUSED_STAB_CODE
+};
+
+#undef __define_stab
+
+#endif /* __GNU_STAB_ */
+% cat -E /home/collard/Project1/shortmemory.h
+$
+#include <features.h>$
+$
+$
+#ifndef	_STRING_H$
+# include <string.h>$
+#endif	/* string.h  */$
+$
+$
+#endif	/* memory.h  */$
+% cat -s /home/collard/Project1/shortmemory.h
+
+#include <features.h>
+
+#ifndef	_STRING_H
+# include <string.h>
+#endif	/* string.h  */
+
+#endif	/* memory.h  */
+% cat -T /home/collard/Project1/shortmemory.h
+
+#include <features.h>
+
+
+#ifndef^I_STRING_H
+# include <string.h>
+#endif^I/* string.h  */
+
+
+#endif^I/* memory.h  */
+% cat -TEs /home/collard/Project1/shortmemory.h
+$
+#include <features.h>$
+$
+#ifndef^I_STRING_H$
+# include <string.h>$
+#endif^I/* string.h  */$
+$
+#endif^I/* memory.h  */$
+% cat /home/collard/Project1/shortmemory.h
+
+#include <features.h>
+
+
+#ifndef	_STRING_H
+# include <string.h>
+#endif	/* string.h  */
+
+
+#endif	/* memory.h  */
+jrm43@unix:~/Project1$ exit
+exit

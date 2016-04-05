@@ -1,0 +1,12 @@
++ export 'PS4=% '
++ PS4='% '
+% cd /usr
+% ls
+bin
+games
+include
+lib
+local
+sbin
+share
+src

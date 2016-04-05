@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo $#
+echo $*
+echo $@
+
+for i; do
+  echo [$i]
+done
+
+

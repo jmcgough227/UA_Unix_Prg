@@ -1,0 +1,15 @@
+jrm43@unix:~/Project1$ bash -x cd.sh
++ export 'PS4=% '
++ PS4='% '
+% cd /usr
+% ls -1
+bin
+games
+include
+lib
+local
+sbin
+share
+src
+jrm43@unix:~/Project1$ exit
+exit

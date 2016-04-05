@@ -1,0 +1,5 @@
+#!/bin/bash
+
+find $1 -type f | xargs file | grep ASCII | cut -d':' -f1 | sort -u | xargs head -1q | sort | uniq -c | sort -nr
+
+

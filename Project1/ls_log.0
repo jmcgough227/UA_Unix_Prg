@@ -1,0 +1,974 @@
+jrm43@unix:~/Project1$ bash -x ls.sh 
++ export 'PS4=% '
++ PS4='% '
+% cd /usr/include
+% pwd
+/usr/include
+% ls -1
+aio.h
+aliases.h
+alloca.h
+archive_entry.h
+archive.h
+argp.h
+argz.h
+ar.h
+arpa
+asm-generic
+assert.h
+btrfs
+byteswap.h
+c++
+complex.h
+cpio.h
+crypt.h
+ctype.h
+dirent.h
+dlfcn.h
+drm
+elf.h
+endian.h
+envz.h
+err.h
+errno.h
+error.h
+execinfo.h
+fcntl.h
+features.h
+fenv.h
+fmtmsg.h
+fnmatch.h
+fstab.h
+fts.h
+ftw.h
+gawkapi.h
+_G_config.h
+gconv.h
+getopt.h
+glob.h
+gnumake.h
+gnu-versions.h
+grp.h
+gshadow.h
+i386-linux-gnu
+iconv.h
+ifaddrs.h
+inttypes.h
+langinfo.h
+lastlog.h
+libgen.h
+libintl.h
+libio.h
+libxml2
+limits.h
+link.h
+linux
+locale.h
+malloc.h
+math.h
+mcheck.h
+memory.h
+misc
+mntent.h
+monetary.h
+mqueue.h
+mtd
+net
+netash
+netatalk
+netax25
+netdb.h
+neteconet
+netinet
+netipx
+netiucv
+netpacket
+netrom
+netrose
+nfs
+nl_types.h
+nss.h
+obstack.h
+paths.h
+poll.h
+printf.h
+protocols
+pthread.h
+pty.h
+pwd.h
+rdma
+re_comp.h
+regex.h
+regexp.h
+reglib
+resolv.h
+rpc
+rpcsvc
+sched.h
+scsi
+search.h
+semaphore.h
+setjmp.h
+sgtty.h
+shadow.h
+signal.h
+sound
+spawn.h
+stab.h
+stdc-predef.h
+stdint.h
+stdio_ext.h
+stdio.h
+stdlib.h
+string.h
+strings.h
+stropts.h
+sudo_plugin.h
+syscall.h
+sysexits.h
+syslog.h
+tar.h
+termio.h
+termios.h
+tgmath.h
+thread_db.h
+time.h
+ttyent.h
+uapi
+uchar.h
+ucontext.h
+ulimit.h
+unistd.h
+ustat.h
+utime.h
+utmp.h
+utmpx.h
+values.h
+video
+wait.h
+wchar.h
+wctype.h
+wordexp.h
+X11
+xen
+xfs
+xlocale.h
+% ls -l
+total 1444
+-rw-r--r--  1 root root   7441 Feb 16 17:49 aio.h
+-rw-r--r--  1 root root   2031 Feb 16 17:49 aliases.h
+-rw-r--r--  1 root root   1203 Feb 16 17:49 alloca.h
+-rw-r--r--  1 root root  29134 Jun 14  2015 archive_entry.h
+-rw-r--r--  1 root root  46254 Jun 14  2015 archive.h
+-rw-r--r--  1 root root  26340 Feb 16 17:49 argp.h
+-rw-r--r--  1 root root   7117 Feb 16 17:49 argz.h
+-rw-r--r--  1 root root   1730 Feb 16 17:49 ar.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 arpa
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 asm-generic
+-rw-r--r--  1 root root   3652 Feb 16 17:49 assert.h
+drwxr-xr-x  2 root root   4096 Jan 22 15:21 btrfs
+-rw-r--r--  1 root root   1404 Feb 16 17:49 byteswap.h
+drwxr-xr-x  3 root root   4096 Jan 20 09:01 c++
+-rw-r--r--  1 root root   3646 Feb 16 17:49 complex.h
+-rw-r--r--  1 root root   2267 Feb 16 17:49 cpio.h
+-rw-r--r--  1 root root   2259 Feb 16 17:49 crypt.h
+-rw-r--r--  1 root root  11652 Feb 16 17:49 ctype.h
+-rw-r--r--  1 root root  12410 Feb 16 17:49 dirent.h
+-rw-r--r--  1 root root   7018 Feb 16 17:49 dlfcn.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 drm
+-rw-r--r--  1 root root 157043 Feb 16 17:49 elf.h
+-rw-r--r--  1 root root   2939 Feb 16 17:49 endian.h
+-rw-r--r--  1 root root   2866 Feb 16 17:49 envz.h
+-rw-r--r--  1 root root   2210 Feb 16 17:49 err.h
+-rw-r--r--  1 root root   2367 Feb 16 17:49 errno.h
+-rw-r--r--  1 root root   2039 Feb 16 17:49 error.h
+-rw-r--r--  1 root root   1522 Feb 16 17:49 execinfo.h
+-rw-r--r--  1 root root   9122 Feb 16 17:49 fcntl.h
+-rw-r--r--  1 root root  13018 Feb 16 17:48 features.h
+-rw-r--r--  1 root root   4590 Feb 16 17:49 fenv.h
+-rw-r--r--  1 root root   3239 Feb 16 17:49 fmtmsg.h
+-rw-r--r--  1 root root   2295 Feb 16 17:49 fnmatch.h
+-rw-r--r--  1 root root   3111 Feb 16 17:49 fstab.h
+-rw-r--r--  1 root root   5290 Feb 16 17:49 fts.h
+-rw-r--r--  1 root root   5251 Feb 16 17:49 ftw.h
+-rw-r--r--  1 root root  30929 Dec 23 18:12 gawkapi.h
+-rw-r--r--  1 root root   1287 Feb 16 17:49 _G_config.h
+-rw-r--r--  1 root root   4415 Feb 16 17:48 gconv.h
+-rw-r--r--  1 root root   6644 Feb 16 17:49 getopt.h
+-rw-r--r--  1 root root   6606 Feb 16 17:49 glob.h
+-rw-r--r--  1 root root   2912 Feb 15 06:13 gnumake.h
+-rw-r--r--  1 root root   2342 Feb 16 17:48 gnu-versions.h
+-rw-r--r--  1 root root   6763 Feb 16 17:49 grp.h
+-rw-r--r--  1 root root   4539 Feb 16 17:49 gshadow.h
+drwxr-xr-x  9 root root   4096 Feb 17 07:40 i386-linux-gnu
+-rw-r--r--  1 root root   1857 Feb 16 17:48 iconv.h
+-rw-r--r--  1 root root   2840 Feb 16 17:49 ifaddrs.h
+-rw-r--r--  1 root root  11892 Feb 16 17:49 inttypes.h
+-rw-r--r--  1 root root  15920 Feb 16 17:48 langinfo.h
+-rw-r--r--  1 root root    126 Feb 16 17:49 lastlog.h
+-rw-r--r--  1 root root   1385 Feb 16 17:49 libgen.h
+-rw-r--r--  1 root root   4579 Feb 16 17:49 libintl.h
+-rw-r--r--  1 root root  17248 Feb 16 17:49 libio.h
+drwxr-xr-x  3 root root   4096 Nov 29  2011 libxml2
+-rw-r--r--  1 root root   4489 Feb 16 17:48 limits.h
+-rw-r--r--  1 root root   7206 Feb 16 17:49 link.h
+drwxr-xr-x 25 root root  53248 Feb 17 07:40 linux
+-rw-r--r--  1 root root   7941 Feb 16 17:48 locale.h
+-rw-r--r--  1 root root   6232 Feb 16 17:49 malloc.h
+-rw-r--r--  1 root root  16475 Feb 16 17:49 math.h
+-rw-r--r--  1 root root   2434 Feb 16 17:49 mcheck.h
+-rw-r--r--  1 root root    955 Feb 16 17:49 memory.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 misc
+-rw-r--r--  1 root root   3369 Feb 16 17:49 mntent.h
+-rw-r--r--  1 root root   1733 Feb 16 17:49 monetary.h
+-rw-r--r--  1 root root   3778 Feb 16 17:49 mqueue.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 mtd
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 net
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netash
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netatalk
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netax25
+-rw-r--r--  1 root root  28055 Feb 16 17:49 netdb.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 neteconet
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netinet
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netipx
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netiucv
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netpacket
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netrom
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netrose
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 nfs
+-rw-r--r--  1 root root   1752 Feb 16 17:49 nl_types.h
+-rw-r--r--  1 root root   1878 Feb 16 17:49 nss.h
+-rw-r--r--  1 root root  21306 Feb 16 17:49 obstack.h
+-rw-r--r--  1 root root   2983 Feb 16 17:49 paths.h
+-rw-r--r--  1 root root     22 Feb 16 17:49 poll.h
+-rw-r--r--  1 root root   6695 Feb 16 17:49 printf.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 protocols
+-rw-r--r--  1 root root  41350 Feb 16 17:49 pthread.h
+-rw-r--r--  1 root root   1536 Feb 16 17:49 pty.h
+-rw-r--r--  1 root root   5884 Feb 16 17:49 pwd.h
+drwxr-xr-x  3 root root   4096 Feb 17 07:40 rdma
+-rw-r--r--  1 root root    962 Feb 16 17:49 re_comp.h
+-rw-r--r--  1 root root  22049 Feb 16 17:49 regex.h
+-rw-r--r--  1 root root   7018 Feb 16 17:49 regexp.h
+drwxr-xr-x  2 root root   4096 Jan 20 09:03 reglib
+-rw-r--r--  1 root root  14862 Feb 16 17:49 resolv.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 rpc
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 rpcsvc
+-rw-r--r--  1 root root   4659 Feb 16 17:49 sched.h
+drwxr-xr-x  3 root root   4096 Feb 17 07:40 scsi
+-rw-r--r--  1 root root   5223 Feb 16 17:49 search.h
+-rw-r--r--  1 root root   2402 Feb 16 17:49 semaphore.h
+-rw-r--r--  1 root root   3774 Feb 16 17:49 setjmp.h
+-rw-r--r--  1 root root   1343 Feb 16 17:49 sgtty.h
+-rw-r--r--  1 root root   5206 Feb 16 17:49 shadow.h
+-rw-r--r--  1 root root  12271 Feb 16 17:49 signal.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 sound
+-rw-r--r--  1 root root   6667 Feb 16 17:49 spawn.h
+-rw-r--r--  1 root root    264 Feb 16 17:49 stab.h
+-rw-r--r--  1 root root   2153 Feb 16 17:48 stdc-predef.h
+-rw-r--r--  1 root root   8094 Feb 16 17:49 stdint.h
+-rw-r--r--  1 root root   2799 Feb 16 17:49 stdio_ext.h
+-rw-r--r--  1 root root  31365 Feb 16 17:49 stdio.h
+-rw-r--r--  1 root root  33686 Feb 16 17:49 stdlib.h
+-rw-r--r--  1 root root  22410 Feb 16 17:49 string.h
+-rw-r--r--  1 root root   4890 Feb 16 17:49 strings.h
+-rw-r--r--  1 root root   3047 Feb 16 17:49 stropts.h
+-rw-r--r--  1 root root   7718 Sep 22 12:19 sudo_plugin.h
+-rw-r--r--  1 root root     25 Feb 16 17:49 syscall.h
+-rw-r--r--  1 root root   5232 Feb 16 17:49 sysexits.h
+-rw-r--r--  1 root root     24 Feb 16 17:49 syslog.h
+-rw-r--r--  1 root root   3785 Feb 16 17:49 tar.h
+-rw-r--r--  1 root root    214 Feb 16 17:49 termio.h
+-rw-r--r--  1 root root   3582 Feb 16 17:49 termios.h
+-rw-r--r--  1 root root  18497 Feb 16 17:49 tgmath.h
+-rw-r--r--  1 root root  16015 Feb 16 17:49 thread_db.h
+-rw-r--r--  1 root root  13543 Feb 16 17:49 time.h
+-rw-r--r--  1 root root   2494 Feb 16 17:49 ttyent.h
+drwxr-xr-x  2 root root   4096 Jan 18 12:18 uapi
+-rw-r--r--  1 root root   2482 Feb 16 17:49 uchar.h
+-rw-r--r--  1 root root   1937 Feb 16 17:49 ucontext.h
+-rw-r--r--  1 root root   1583 Feb 16 17:49 ulimit.h
+-rw-r--r--  1 root root  41986 Feb 16 17:49 unistd.h
+-rw-r--r--  1 root root     23 Feb 16 17:49 ustat.h
+-rw-r--r--  1 root root   1511 Feb 16 17:49 utime.h
+-rw-r--r--  1 root root   3222 Feb 16 17:49 utmp.h
+-rw-r--r--  1 root root   4099 Feb 16 17:49 utmpx.h
+-rw-r--r--  1 root root   1955 Feb 16 17:48 values.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 video
+-rw-r--r--  1 root root     22 Feb 16 17:49 wait.h
+-rw-r--r--  1 root root  31999 Feb 16 17:49 wchar.h
+-rw-r--r--  1 root root  11130 Feb 16 17:49 wctype.h
+-rw-r--r--  1 root root   2501 Feb 16 17:49 wordexp.h
+drwxr-xr-x  2 root root   4096 Dec  9  2014 X11
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 xen
+drwxr-xr-x  2 root root   4096 Nov 27 06:13 xfs
+-rw-r--r--  1 root root   1689 Feb 16 17:48 xlocale.h
+% ls -lh
+total 1.5M
+-rw-r--r--  1 root root 7.3K Feb 16 17:49 aio.h
+-rw-r--r--  1 root root 2.0K Feb 16 17:49 aliases.h
+-rw-r--r--  1 root root 1.2K Feb 16 17:49 alloca.h
+-rw-r--r--  1 root root  29K Jun 14  2015 archive_entry.h
+-rw-r--r--  1 root root  46K Jun 14  2015 archive.h
+-rw-r--r--  1 root root  26K Feb 16 17:49 argp.h
+-rw-r--r--  1 root root 7.0K Feb 16 17:49 argz.h
+-rw-r--r--  1 root root 1.7K Feb 16 17:49 ar.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 arpa
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 asm-generic
+-rw-r--r--  1 root root 3.6K Feb 16 17:49 assert.h
+drwxr-xr-x  2 root root 4.0K Jan 22 15:21 btrfs
+-rw-r--r--  1 root root 1.4K Feb 16 17:49 byteswap.h
+drwxr-xr-x  3 root root 4.0K Jan 20 09:01 c++
+-rw-r--r--  1 root root 3.6K Feb 16 17:49 complex.h
+-rw-r--r--  1 root root 2.3K Feb 16 17:49 cpio.h
+-rw-r--r--  1 root root 2.3K Feb 16 17:49 crypt.h
+-rw-r--r--  1 root root  12K Feb 16 17:49 ctype.h
+-rw-r--r--  1 root root  13K Feb 16 17:49 dirent.h
+-rw-r--r--  1 root root 6.9K Feb 16 17:49 dlfcn.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 drm
+-rw-r--r--  1 root root 154K Feb 16 17:49 elf.h
+-rw-r--r--  1 root root 2.9K Feb 16 17:49 endian.h
+-rw-r--r--  1 root root 2.8K Feb 16 17:49 envz.h
+-rw-r--r--  1 root root 2.2K Feb 16 17:49 err.h
+-rw-r--r--  1 root root 2.4K Feb 16 17:49 errno.h
+-rw-r--r--  1 root root 2.0K Feb 16 17:49 error.h
+-rw-r--r--  1 root root 1.5K Feb 16 17:49 execinfo.h
+-rw-r--r--  1 root root 9.0K Feb 16 17:49 fcntl.h
+-rw-r--r--  1 root root  13K Feb 16 17:48 features.h
+-rw-r--r--  1 root root 4.5K Feb 16 17:49 fenv.h
+-rw-r--r--  1 root root 3.2K Feb 16 17:49 fmtmsg.h
+-rw-r--r--  1 root root 2.3K Feb 16 17:49 fnmatch.h
+-rw-r--r--  1 root root 3.1K Feb 16 17:49 fstab.h
+-rw-r--r--  1 root root 5.2K Feb 16 17:49 fts.h
+-rw-r--r--  1 root root 5.2K Feb 16 17:49 ftw.h
+-rw-r--r--  1 root root  31K Dec 23 18:12 gawkapi.h
+-rw-r--r--  1 root root 1.3K Feb 16 17:49 _G_config.h
+-rw-r--r--  1 root root 4.4K Feb 16 17:48 gconv.h
+-rw-r--r--  1 root root 6.5K Feb 16 17:49 getopt.h
+-rw-r--r--  1 root root 6.5K Feb 16 17:49 glob.h
+-rw-r--r--  1 root root 2.9K Feb 15 06:13 gnumake.h
+-rw-r--r--  1 root root 2.3K Feb 16 17:48 gnu-versions.h
+-rw-r--r--  1 root root 6.7K Feb 16 17:49 grp.h
+-rw-r--r--  1 root root 4.5K Feb 16 17:49 gshadow.h
+drwxr-xr-x  9 root root 4.0K Feb 17 07:40 i386-linux-gnu
+-rw-r--r--  1 root root 1.9K Feb 16 17:48 iconv.h
+-rw-r--r--  1 root root 2.8K Feb 16 17:49 ifaddrs.h
+-rw-r--r--  1 root root  12K Feb 16 17:49 inttypes.h
+-rw-r--r--  1 root root  16K Feb 16 17:48 langinfo.h
+-rw-r--r--  1 root root  126 Feb 16 17:49 lastlog.h
+-rw-r--r--  1 root root 1.4K Feb 16 17:49 libgen.h
+-rw-r--r--  1 root root 4.5K Feb 16 17:49 libintl.h
+-rw-r--r--  1 root root  17K Feb 16 17:49 libio.h
+drwxr-xr-x  3 root root 4.0K Nov 29  2011 libxml2
+-rw-r--r--  1 root root 4.4K Feb 16 17:48 limits.h
+-rw-r--r--  1 root root 7.1K Feb 16 17:49 link.h
+drwxr-xr-x 25 root root  52K Feb 17 07:40 linux
+-rw-r--r--  1 root root 7.8K Feb 16 17:48 locale.h
+-rw-r--r--  1 root root 6.1K Feb 16 17:49 malloc.h
+-rw-r--r--  1 root root  17K Feb 16 17:49 math.h
+-rw-r--r--  1 root root 2.4K Feb 16 17:49 mcheck.h
+-rw-r--r--  1 root root  955 Feb 16 17:49 memory.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 misc
+-rw-r--r--  1 root root 3.3K Feb 16 17:49 mntent.h
+-rw-r--r--  1 root root 1.7K Feb 16 17:49 monetary.h
+-rw-r--r--  1 root root 3.7K Feb 16 17:49 mqueue.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 mtd
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 net
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netash
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netatalk
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netax25
+-rw-r--r--  1 root root  28K Feb 16 17:49 netdb.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 neteconet
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netinet
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netipx
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netiucv
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netpacket
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netrom
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 netrose
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 nfs
+-rw-r--r--  1 root root 1.8K Feb 16 17:49 nl_types.h
+-rw-r--r--  1 root root 1.9K Feb 16 17:49 nss.h
+-rw-r--r--  1 root root  21K Feb 16 17:49 obstack.h
+-rw-r--r--  1 root root 3.0K Feb 16 17:49 paths.h
+-rw-r--r--  1 root root   22 Feb 16 17:49 poll.h
+-rw-r--r--  1 root root 6.6K Feb 16 17:49 printf.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 protocols
+-rw-r--r--  1 root root  41K Feb 16 17:49 pthread.h
+-rw-r--r--  1 root root 1.5K Feb 16 17:49 pty.h
+-rw-r--r--  1 root root 5.8K Feb 16 17:49 pwd.h
+drwxr-xr-x  3 root root 4.0K Feb 17 07:40 rdma
+-rw-r--r--  1 root root  962 Feb 16 17:49 re_comp.h
+-rw-r--r--  1 root root  22K Feb 16 17:49 regex.h
+-rw-r--r--  1 root root 6.9K Feb 16 17:49 regexp.h
+drwxr-xr-x  2 root root 4.0K Jan 20 09:03 reglib
+-rw-r--r--  1 root root  15K Feb 16 17:49 resolv.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 rpc
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 rpcsvc
+-rw-r--r--  1 root root 4.6K Feb 16 17:49 sched.h
+drwxr-xr-x  3 root root 4.0K Feb 17 07:40 scsi
+-rw-r--r--  1 root root 5.2K Feb 16 17:49 search.h
+-rw-r--r--  1 root root 2.4K Feb 16 17:49 semaphore.h
+-rw-r--r--  1 root root 3.7K Feb 16 17:49 setjmp.h
+-rw-r--r--  1 root root 1.4K Feb 16 17:49 sgtty.h
+-rw-r--r--  1 root root 5.1K Feb 16 17:49 shadow.h
+-rw-r--r--  1 root root  12K Feb 16 17:49 signal.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 sound
+-rw-r--r--  1 root root 6.6K Feb 16 17:49 spawn.h
+-rw-r--r--  1 root root  264 Feb 16 17:49 stab.h
+-rw-r--r--  1 root root 2.2K Feb 16 17:48 stdc-predef.h
+-rw-r--r--  1 root root 8.0K Feb 16 17:49 stdint.h
+-rw-r--r--  1 root root 2.8K Feb 16 17:49 stdio_ext.h
+-rw-r--r--  1 root root  31K Feb 16 17:49 stdio.h
+-rw-r--r--  1 root root  33K Feb 16 17:49 stdlib.h
+-rw-r--r--  1 root root  22K Feb 16 17:49 string.h
+-rw-r--r--  1 root root 4.8K Feb 16 17:49 strings.h
+-rw-r--r--  1 root root 3.0K Feb 16 17:49 stropts.h
+-rw-r--r--  1 root root 7.6K Sep 22 12:19 sudo_plugin.h
+-rw-r--r--  1 root root   25 Feb 16 17:49 syscall.h
+-rw-r--r--  1 root root 5.2K Feb 16 17:49 sysexits.h
+-rw-r--r--  1 root root   24 Feb 16 17:49 syslog.h
+-rw-r--r--  1 root root 3.7K Feb 16 17:49 tar.h
+-rw-r--r--  1 root root  214 Feb 16 17:49 termio.h
+-rw-r--r--  1 root root 3.5K Feb 16 17:49 termios.h
+-rw-r--r--  1 root root  19K Feb 16 17:49 tgmath.h
+-rw-r--r--  1 root root  16K Feb 16 17:49 thread_db.h
+-rw-r--r--  1 root root  14K Feb 16 17:49 time.h
+-rw-r--r--  1 root root 2.5K Feb 16 17:49 ttyent.h
+drwxr-xr-x  2 root root 4.0K Jan 18 12:18 uapi
+-rw-r--r--  1 root root 2.5K Feb 16 17:49 uchar.h
+-rw-r--r--  1 root root 1.9K Feb 16 17:49 ucontext.h
+-rw-r--r--  1 root root 1.6K Feb 16 17:49 ulimit.h
+-rw-r--r--  1 root root  42K Feb 16 17:49 unistd.h
+-rw-r--r--  1 root root   23 Feb 16 17:49 ustat.h
+-rw-r--r--  1 root root 1.5K Feb 16 17:49 utime.h
+-rw-r--r--  1 root root 3.2K Feb 16 17:49 utmp.h
+-rw-r--r--  1 root root 4.1K Feb 16 17:49 utmpx.h
+-rw-r--r--  1 root root 2.0K Feb 16 17:48 values.h
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 video
+-rw-r--r--  1 root root   22 Feb 16 17:49 wait.h
+-rw-r--r--  1 root root  32K Feb 16 17:49 wchar.h
+-rw-r--r--  1 root root  11K Feb 16 17:49 wctype.h
+-rw-r--r--  1 root root 2.5K Feb 16 17:49 wordexp.h
+drwxr-xr-x  2 root root 4.0K Dec  9  2014 X11
+drwxr-xr-x  2 root root 4.0K Feb 17 07:40 xen
+drwxr-xr-x  2 root root 4.0K Nov 27 06:13 xfs
+-rw-r--r--  1 root root 1.7K Feb 16 17:48 xlocale.h
+% ls -a
+.		 ctype.h     gawkapi.h	     limits.h	 netinet     regex.h	    stdio_ext.h    ucontext.h
+..		 dirent.h    _G_config.h     link.h	 netipx      regexp.h	    stdio.h	   ulimit.h
+aio.h		 dlfcn.h     gconv.h	     linux	 netiucv     reglib	    stdlib.h	   unistd.h
+aliases.h	 drm	     getopt.h	     locale.h	 netpacket   resolv.h	    string.h	   ustat.h
+alloca.h	 elf.h	     glob.h	     malloc.h	 netrom      rpc	    strings.h	   utime.h
+archive_entry.h  endian.h    gnumake.h	     math.h	 netrose     rpcsvc	    stropts.h	   utmp.h
+archive.h	 envz.h      gnu-versions.h  mcheck.h	 nfs	     sched.h	    sudo_plugin.h  utmpx.h
+argp.h		 err.h	     grp.h	     memory.h	 nl_types.h  scsi	    syscall.h	   values.h
+argz.h		 errno.h     gshadow.h	     misc	 nss.h	     search.h	    sysexits.h	   video
+ar.h		 error.h     i386-linux-gnu  mntent.h	 obstack.h   semaphore.h    syslog.h	   wait.h
+arpa		 execinfo.h  iconv.h	     monetary.h  paths.h     setjmp.h	    tar.h	   wchar.h
+asm-generic	 fcntl.h     ifaddrs.h	     mqueue.h	 poll.h      sgtty.h	    termio.h	   wctype.h
+assert.h	 features.h  inttypes.h      mtd	 printf.h    shadow.h	    termios.h	   wordexp.h
+btrfs		 fenv.h      langinfo.h      net	 protocols   signal.h	    tgmath.h	   X11
+byteswap.h	 fmtmsg.h    lastlog.h	     netash	 pthread.h   sound	    thread_db.h    xen
+c++		 fnmatch.h   libgen.h	     netatalk	 pty.h	     spawn.h	    time.h	   xfs
+complex.h	 fstab.h     libintl.h	     netax25	 pwd.h	     stab.h	    ttyent.h	   xlocale.h
+cpio.h		 fts.h	     libio.h	     netdb.h	 rdma	     stdc-predef.h  uapi
+crypt.h		 ftw.h	     libxml2	     neteconet	 re_comp.h   stdint.h	    uchar.h
+% ls -l c++
+total 12
+drwxr-xr-x 13 root root 12288 Feb  8 13:12 5
+lrwxrwxrwx  1 root root     1 Jan 19 03:11 5.3.1 -> 5
+% ls -ld c++
+drwxr-xr-x 3 root root 4096 Jan 20 09:01 c++
+% ls -lt
+total 1444
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 asm-generic
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 drm
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 misc
+drwxr-xr-x  3 root root   4096 Feb 17 07:40 rdma
+drwxr-xr-x  3 root root   4096 Feb 17 07:40 scsi
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 video
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 xen
+drwxr-xr-x 25 root root  53248 Feb 17 07:40 linux
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 mtd
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 sound
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 nfs
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 arpa
+drwxr-xr-x  9 root root   4096 Feb 17 07:40 i386-linux-gnu
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 net
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netash
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netatalk
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netax25
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 neteconet
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netinet
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netipx
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netiucv
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netpacket
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netrom
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netrose
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 protocols
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 rpc
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 rpcsvc
+-rw-r--r--  1 root root 157043 Feb 16 17:49 elf.h
+-rw-r--r--  1 root root    126 Feb 16 17:49 lastlog.h
+-rw-r--r--  1 root root   7206 Feb 16 17:49 link.h
+-rw-r--r--  1 root root   1536 Feb 16 17:49 pty.h
+-rw-r--r--  1 root root   3222 Feb 16 17:49 utmp.h
+-rw-r--r--  1 root root   4099 Feb 16 17:49 utmpx.h
+-rw-r--r--  1 root root   3047 Feb 16 17:49 stropts.h
+-rw-r--r--  1 root root   1878 Feb 16 17:49 nss.h
+-rw-r--r--  1 root root  28055 Feb 16 17:49 netdb.h
+-rw-r--r--  1 root root  14862 Feb 16 17:49 resolv.h
+-rw-r--r--  1 root root   2031 Feb 16 17:49 aliases.h
+-rw-r--r--  1 root root   2840 Feb 16 17:49 ifaddrs.h
+-rw-r--r--  1 root root  16015 Feb 16 17:49 thread_db.h
+-rw-r--r--  1 root root   1522 Feb 16 17:49 execinfo.h
+-rw-r--r--  1 root root   7441 Feb 16 17:49 aio.h
+-rw-r--r--  1 root root   3778 Feb 16 17:49 mqueue.h
+-rw-r--r--  1 root root  41350 Feb 16 17:49 pthread.h
+-rw-r--r--  1 root root   2402 Feb 16 17:49 semaphore.h
+-rw-r--r--  1 root root  26340 Feb 16 17:49 argp.h
+-rw-r--r--  1 root root   2259 Feb 16 17:49 crypt.h
+-rw-r--r--  1 root root   4539 Feb 16 17:49 gshadow.h
+-rw-r--r--  1 root root   5206 Feb 16 17:49 shadow.h
+-rw-r--r--  1 root root  11130 Feb 16 17:49 wctype.h
+-rw-r--r--  1 root root   1730 Feb 16 17:49 ar.h
+-rw-r--r--  1 root root   2210 Feb 16 17:49 err.h
+-rw-r--r--  1 root root   2039 Feb 16 17:49 error.h
+-rw-r--r--  1 root root   3111 Feb 16 17:49 fstab.h
+-rw-r--r--  1 root root   1385 Feb 16 17:49 libgen.h
+-rw-r--r--  1 root root   3369 Feb 16 17:49 mntent.h
+-rw-r--r--  1 root root   2983 Feb 16 17:49 paths.h
+-rw-r--r--  1 root root   7018 Feb 16 17:49 regexp.h
+-rw-r--r--  1 root root   5223 Feb 16 17:49 search.h
+-rw-r--r--  1 root root   1343 Feb 16 17:49 sgtty.h
+-rw-r--r--  1 root root    264 Feb 16 17:49 stab.h
+-rw-r--r--  1 root root     25 Feb 16 17:49 syscall.h
+-rw-r--r--  1 root root   5232 Feb 16 17:49 sysexits.h
+-rw-r--r--  1 root root     24 Feb 16 17:49 syslog.h
+-rw-r--r--  1 root root   2494 Feb 16 17:49 ttyent.h
+-rw-r--r--  1 root root   1583 Feb 16 17:49 ulimit.h
+-rw-r--r--  1 root root     23 Feb 16 17:49 ustat.h
+-rw-r--r--  1 root root   2267 Feb 16 17:49 cpio.h
+-rw-r--r--  1 root root   9122 Feb 16 17:49 fcntl.h
+-rw-r--r--  1 root root   5290 Feb 16 17:49 fts.h
+-rw-r--r--  1 root root   5251 Feb 16 17:49 ftw.h
+-rw-r--r--  1 root root     22 Feb 16 17:49 poll.h
+-rw-r--r--  1 root root   6667 Feb 16 17:49 spawn.h
+-rw-r--r--  1 root root    214 Feb 16 17:49 termio.h
+-rw-r--r--  1 root root   3582 Feb 16 17:49 termios.h
+-rw-r--r--  1 root root   1511 Feb 16 17:49 utime.h
+-rw-r--r--  1 root root   2295 Feb 16 17:49 fnmatch.h
+-rw-r--r--  1 root root   6644 Feb 16 17:49 getopt.h
+-rw-r--r--  1 root root   6606 Feb 16 17:49 glob.h
+-rw-r--r--  1 root root   6763 Feb 16 17:49 grp.h
+-rw-r--r--  1 root root   5884 Feb 16 17:49 pwd.h
+-rw-r--r--  1 root root    962 Feb 16 17:49 re_comp.h
+-rw-r--r--  1 root root  22049 Feb 16 17:49 regex.h
+-rw-r--r--  1 root root   4659 Feb 16 17:49 sched.h
+-rw-r--r--  1 root root   3785 Feb 16 17:49 tar.h
+-rw-r--r--  1 root root  41986 Feb 16 17:49 unistd.h
+-rw-r--r--  1 root root     22 Feb 16 17:49 wait.h
+-rw-r--r--  1 root root   2501 Feb 16 17:49 wordexp.h
+-rw-r--r--  1 root root  12410 Feb 16 17:49 dirent.h
+-rw-r--r--  1 root root  13543 Feb 16 17:49 time.h
+-rw-r--r--  1 root root   2482 Feb 16 17:49 uchar.h
+-rw-r--r--  1 root root  31999 Feb 16 17:49 wchar.h
+-rw-r--r--  1 root root   7117 Feb 16 17:49 argz.h
+-rw-r--r--  1 root root   1404 Feb 16 17:49 byteswap.h
+-rw-r--r--  1 root root   2939 Feb 16 17:49 endian.h
+-rw-r--r--  1 root root   2866 Feb 16 17:49 envz.h
+-rw-r--r--  1 root root   6232 Feb 16 17:49 malloc.h
+-rw-r--r--  1 root root   2434 Feb 16 17:49 mcheck.h
+-rw-r--r--  1 root root    955 Feb 16 17:49 memory.h
+-rw-r--r--  1 root root  21306 Feb 16 17:49 obstack.h
+-rw-r--r--  1 root root  22410 Feb 16 17:49 string.h
+-rw-r--r--  1 root root   4890 Feb 16 17:49 strings.h
+-rw-r--r--  1 root root   7018 Feb 16 17:49 dlfcn.h
+-rw-r--r--  1 root root   1287 Feb 16 17:49 _G_config.h
+-rw-r--r--  1 root root  17248 Feb 16 17:49 libio.h
+-rw-r--r--  1 root root  31365 Feb 16 17:49 stdio.h
+-rw-r--r--  1 root root   1203 Feb 16 17:49 alloca.h
+-rw-r--r--  1 root root   2367 Feb 16 17:49 errno.h
+-rw-r--r--  1 root root   3239 Feb 16 17:49 fmtmsg.h
+-rw-r--r--  1 root root  11892 Feb 16 17:49 inttypes.h
+-rw-r--r--  1 root root   1733 Feb 16 17:49 monetary.h
+-rw-r--r--  1 root root   6695 Feb 16 17:49 printf.h
+-rw-r--r--  1 root root   8094 Feb 16 17:49 stdint.h
+-rw-r--r--  1 root root   2799 Feb 16 17:49 stdio_ext.h
+-rw-r--r--  1 root root  33686 Feb 16 17:49 stdlib.h
+-rw-r--r--  1 root root   1937 Feb 16 17:49 ucontext.h
+-rw-r--r--  1 root root   3774 Feb 16 17:49 setjmp.h
+-rw-r--r--  1 root root  12271 Feb 16 17:49 signal.h
+-rw-r--r--  1 root root   3646 Feb 16 17:49 complex.h
+-rw-r--r--  1 root root   4590 Feb 16 17:49 fenv.h
+-rw-r--r--  1 root root  16475 Feb 16 17:49 math.h
+-rw-r--r--  1 root root  18497 Feb 16 17:49 tgmath.h
+-rw-r--r--  1 root root   4579 Feb 16 17:49 libintl.h
+-rw-r--r--  1 root root   1752 Feb 16 17:49 nl_types.h
+-rw-r--r--  1 root root   3652 Feb 16 17:49 assert.h
+-rw-r--r--  1 root root  11652 Feb 16 17:49 ctype.h
+-rw-r--r--  1 root root   4415 Feb 16 17:48 gconv.h
+-rw-r--r--  1 root root   1857 Feb 16 17:48 iconv.h
+-rw-r--r--  1 root root  15920 Feb 16 17:48 langinfo.h
+-rw-r--r--  1 root root   7941 Feb 16 17:48 locale.h
+-rw-r--r--  1 root root   1689 Feb 16 17:48 xlocale.h
+-rw-r--r--  1 root root  13018 Feb 16 17:48 features.h
+-rw-r--r--  1 root root   2342 Feb 16 17:48 gnu-versions.h
+-rw-r--r--  1 root root   4489 Feb 16 17:48 limits.h
+-rw-r--r--  1 root root   2153 Feb 16 17:48 stdc-predef.h
+-rw-r--r--  1 root root   1955 Feb 16 17:48 values.h
+-rw-r--r--  1 root root   2912 Feb 15 06:13 gnumake.h
+drwxr-xr-x  2 root root   4096 Jan 22 15:21 btrfs
+drwxr-xr-x  2 root root   4096 Jan 20 09:03 reglib
+drwxr-xr-x  3 root root   4096 Jan 20 09:01 c++
+drwxr-xr-x  2 root root   4096 Jan 18 12:18 uapi
+-rw-r--r--  1 root root  30929 Dec 23 18:12 gawkapi.h
+drwxr-xr-x  2 root root   4096 Nov 27 06:13 xfs
+-rw-r--r--  1 root root   7718 Sep 22 12:19 sudo_plugin.h
+-rw-r--r--  1 root root  29134 Jun 14  2015 archive_entry.h
+-rw-r--r--  1 root root  46254 Jun 14  2015 archive.h
+drwxr-xr-x  2 root root   4096 Dec  9  2014 X11
+drwxr-xr-x  3 root root   4096 Nov 29  2011 libxml2
+% ls -ltr
+total 1444
+drwxr-xr-x  3 root root   4096 Nov 29  2011 libxml2
+drwxr-xr-x  2 root root   4096 Dec  9  2014 X11
+-rw-r--r--  1 root root  46254 Jun 14  2015 archive.h
+-rw-r--r--  1 root root  29134 Jun 14  2015 archive_entry.h
+-rw-r--r--  1 root root   7718 Sep 22 12:19 sudo_plugin.h
+drwxr-xr-x  2 root root   4096 Nov 27 06:13 xfs
+-rw-r--r--  1 root root  30929 Dec 23 18:12 gawkapi.h
+drwxr-xr-x  2 root root   4096 Jan 18 12:18 uapi
+drwxr-xr-x  3 root root   4096 Jan 20 09:01 c++
+drwxr-xr-x  2 root root   4096 Jan 20 09:03 reglib
+drwxr-xr-x  2 root root   4096 Jan 22 15:21 btrfs
+-rw-r--r--  1 root root   2912 Feb 15 06:13 gnumake.h
+-rw-r--r--  1 root root   1955 Feb 16 17:48 values.h
+-rw-r--r--  1 root root   2153 Feb 16 17:48 stdc-predef.h
+-rw-r--r--  1 root root   4489 Feb 16 17:48 limits.h
+-rw-r--r--  1 root root   2342 Feb 16 17:48 gnu-versions.h
+-rw-r--r--  1 root root  13018 Feb 16 17:48 features.h
+-rw-r--r--  1 root root   1689 Feb 16 17:48 xlocale.h
+-rw-r--r--  1 root root   7941 Feb 16 17:48 locale.h
+-rw-r--r--  1 root root  15920 Feb 16 17:48 langinfo.h
+-rw-r--r--  1 root root   1857 Feb 16 17:48 iconv.h
+-rw-r--r--  1 root root   4415 Feb 16 17:48 gconv.h
+-rw-r--r--  1 root root  11652 Feb 16 17:49 ctype.h
+-rw-r--r--  1 root root   3652 Feb 16 17:49 assert.h
+-rw-r--r--  1 root root   1752 Feb 16 17:49 nl_types.h
+-rw-r--r--  1 root root   4579 Feb 16 17:49 libintl.h
+-rw-r--r--  1 root root  18497 Feb 16 17:49 tgmath.h
+-rw-r--r--  1 root root  16475 Feb 16 17:49 math.h
+-rw-r--r--  1 root root   4590 Feb 16 17:49 fenv.h
+-rw-r--r--  1 root root   3646 Feb 16 17:49 complex.h
+-rw-r--r--  1 root root  12271 Feb 16 17:49 signal.h
+-rw-r--r--  1 root root   3774 Feb 16 17:49 setjmp.h
+-rw-r--r--  1 root root   1937 Feb 16 17:49 ucontext.h
+-rw-r--r--  1 root root  33686 Feb 16 17:49 stdlib.h
+-rw-r--r--  1 root root   2799 Feb 16 17:49 stdio_ext.h
+-rw-r--r--  1 root root   8094 Feb 16 17:49 stdint.h
+-rw-r--r--  1 root root   6695 Feb 16 17:49 printf.h
+-rw-r--r--  1 root root   1733 Feb 16 17:49 monetary.h
+-rw-r--r--  1 root root  11892 Feb 16 17:49 inttypes.h
+-rw-r--r--  1 root root   3239 Feb 16 17:49 fmtmsg.h
+-rw-r--r--  1 root root   2367 Feb 16 17:49 errno.h
+-rw-r--r--  1 root root   1203 Feb 16 17:49 alloca.h
+-rw-r--r--  1 root root  31365 Feb 16 17:49 stdio.h
+-rw-r--r--  1 root root  17248 Feb 16 17:49 libio.h
+-rw-r--r--  1 root root   1287 Feb 16 17:49 _G_config.h
+-rw-r--r--  1 root root   7018 Feb 16 17:49 dlfcn.h
+-rw-r--r--  1 root root   4890 Feb 16 17:49 strings.h
+-rw-r--r--  1 root root  22410 Feb 16 17:49 string.h
+-rw-r--r--  1 root root  21306 Feb 16 17:49 obstack.h
+-rw-r--r--  1 root root    955 Feb 16 17:49 memory.h
+-rw-r--r--  1 root root   2434 Feb 16 17:49 mcheck.h
+-rw-r--r--  1 root root   6232 Feb 16 17:49 malloc.h
+-rw-r--r--  1 root root   2866 Feb 16 17:49 envz.h
+-rw-r--r--  1 root root   2939 Feb 16 17:49 endian.h
+-rw-r--r--  1 root root   1404 Feb 16 17:49 byteswap.h
+-rw-r--r--  1 root root   7117 Feb 16 17:49 argz.h
+-rw-r--r--  1 root root  31999 Feb 16 17:49 wchar.h
+-rw-r--r--  1 root root   2482 Feb 16 17:49 uchar.h
+-rw-r--r--  1 root root  13543 Feb 16 17:49 time.h
+-rw-r--r--  1 root root  12410 Feb 16 17:49 dirent.h
+-rw-r--r--  1 root root   2501 Feb 16 17:49 wordexp.h
+-rw-r--r--  1 root root     22 Feb 16 17:49 wait.h
+-rw-r--r--  1 root root  41986 Feb 16 17:49 unistd.h
+-rw-r--r--  1 root root   3785 Feb 16 17:49 tar.h
+-rw-r--r--  1 root root   4659 Feb 16 17:49 sched.h
+-rw-r--r--  1 root root  22049 Feb 16 17:49 regex.h
+-rw-r--r--  1 root root    962 Feb 16 17:49 re_comp.h
+-rw-r--r--  1 root root   5884 Feb 16 17:49 pwd.h
+-rw-r--r--  1 root root   6763 Feb 16 17:49 grp.h
+-rw-r--r--  1 root root   6606 Feb 16 17:49 glob.h
+-rw-r--r--  1 root root   6644 Feb 16 17:49 getopt.h
+-rw-r--r--  1 root root   2295 Feb 16 17:49 fnmatch.h
+-rw-r--r--  1 root root   1511 Feb 16 17:49 utime.h
+-rw-r--r--  1 root root   3582 Feb 16 17:49 termios.h
+-rw-r--r--  1 root root    214 Feb 16 17:49 termio.h
+-rw-r--r--  1 root root   6667 Feb 16 17:49 spawn.h
+-rw-r--r--  1 root root     22 Feb 16 17:49 poll.h
+-rw-r--r--  1 root root   5251 Feb 16 17:49 ftw.h
+-rw-r--r--  1 root root   5290 Feb 16 17:49 fts.h
+-rw-r--r--  1 root root   9122 Feb 16 17:49 fcntl.h
+-rw-r--r--  1 root root   2267 Feb 16 17:49 cpio.h
+-rw-r--r--  1 root root     23 Feb 16 17:49 ustat.h
+-rw-r--r--  1 root root   1583 Feb 16 17:49 ulimit.h
+-rw-r--r--  1 root root   2494 Feb 16 17:49 ttyent.h
+-rw-r--r--  1 root root     24 Feb 16 17:49 syslog.h
+-rw-r--r--  1 root root   5232 Feb 16 17:49 sysexits.h
+-rw-r--r--  1 root root     25 Feb 16 17:49 syscall.h
+-rw-r--r--  1 root root    264 Feb 16 17:49 stab.h
+-rw-r--r--  1 root root   1343 Feb 16 17:49 sgtty.h
+-rw-r--r--  1 root root   5223 Feb 16 17:49 search.h
+-rw-r--r--  1 root root   7018 Feb 16 17:49 regexp.h
+-rw-r--r--  1 root root   2983 Feb 16 17:49 paths.h
+-rw-r--r--  1 root root   3369 Feb 16 17:49 mntent.h
+-rw-r--r--  1 root root   1385 Feb 16 17:49 libgen.h
+-rw-r--r--  1 root root   3111 Feb 16 17:49 fstab.h
+-rw-r--r--  1 root root   2039 Feb 16 17:49 error.h
+-rw-r--r--  1 root root   2210 Feb 16 17:49 err.h
+-rw-r--r--  1 root root   1730 Feb 16 17:49 ar.h
+-rw-r--r--  1 root root  11130 Feb 16 17:49 wctype.h
+-rw-r--r--  1 root root   5206 Feb 16 17:49 shadow.h
+-rw-r--r--  1 root root   4539 Feb 16 17:49 gshadow.h
+-rw-r--r--  1 root root   2259 Feb 16 17:49 crypt.h
+-rw-r--r--  1 root root  26340 Feb 16 17:49 argp.h
+-rw-r--r--  1 root root   2402 Feb 16 17:49 semaphore.h
+-rw-r--r--  1 root root  41350 Feb 16 17:49 pthread.h
+-rw-r--r--  1 root root   3778 Feb 16 17:49 mqueue.h
+-rw-r--r--  1 root root   7441 Feb 16 17:49 aio.h
+-rw-r--r--  1 root root   1522 Feb 16 17:49 execinfo.h
+-rw-r--r--  1 root root  16015 Feb 16 17:49 thread_db.h
+-rw-r--r--  1 root root   2840 Feb 16 17:49 ifaddrs.h
+-rw-r--r--  1 root root   2031 Feb 16 17:49 aliases.h
+-rw-r--r--  1 root root  14862 Feb 16 17:49 resolv.h
+-rw-r--r--  1 root root  28055 Feb 16 17:49 netdb.h
+-rw-r--r--  1 root root   1878 Feb 16 17:49 nss.h
+-rw-r--r--  1 root root   3047 Feb 16 17:49 stropts.h
+-rw-r--r--  1 root root   4099 Feb 16 17:49 utmpx.h
+-rw-r--r--  1 root root   3222 Feb 16 17:49 utmp.h
+-rw-r--r--  1 root root   1536 Feb 16 17:49 pty.h
+-rw-r--r--  1 root root   7206 Feb 16 17:49 link.h
+-rw-r--r--  1 root root    126 Feb 16 17:49 lastlog.h
+-rw-r--r--  1 root root 157043 Feb 16 17:49 elf.h
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 rpcsvc
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 rpc
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 protocols
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netrose
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netrom
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netpacket
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netiucv
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netipx
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netinet
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 neteconet
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netax25
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netatalk
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 netash
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 net
+drwxr-xr-x  9 root root   4096 Feb 17 07:40 i386-linux-gnu
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 arpa
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 nfs
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 sound
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 mtd
+drwxr-xr-x 25 root root  53248 Feb 17 07:40 linux
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 xen
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 video
+drwxr-xr-x  3 root root   4096 Feb 17 07:40 scsi
+drwxr-xr-x  3 root root   4096 Feb 17 07:40 rdma
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 misc
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 drm
+drwxr-xr-x  2 root root   4096 Feb 17 07:40 asm-generic
+% ls -n
+total 1444
+-rw-r--r--  1 0 0   7441 Feb 16 17:49 aio.h
+-rw-r--r--  1 0 0   2031 Feb 16 17:49 aliases.h
+-rw-r--r--  1 0 0   1203 Feb 16 17:49 alloca.h
+-rw-r--r--  1 0 0  29134 Jun 14  2015 archive_entry.h
+-rw-r--r--  1 0 0  46254 Jun 14  2015 archive.h
+-rw-r--r--  1 0 0  26340 Feb 16 17:49 argp.h
+-rw-r--r--  1 0 0   7117 Feb 16 17:49 argz.h
+-rw-r--r--  1 0 0   1730 Feb 16 17:49 ar.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 arpa
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 asm-generic
+-rw-r--r--  1 0 0   3652 Feb 16 17:49 assert.h
+drwxr-xr-x  2 0 0   4096 Jan 22 15:21 btrfs
+-rw-r--r--  1 0 0   1404 Feb 16 17:49 byteswap.h
+drwxr-xr-x  3 0 0   4096 Jan 20 09:01 c++
+-rw-r--r--  1 0 0   3646 Feb 16 17:49 complex.h
+-rw-r--r--  1 0 0   2267 Feb 16 17:49 cpio.h
+-rw-r--r--  1 0 0   2259 Feb 16 17:49 crypt.h
+-rw-r--r--  1 0 0  11652 Feb 16 17:49 ctype.h
+-rw-r--r--  1 0 0  12410 Feb 16 17:49 dirent.h
+-rw-r--r--  1 0 0   7018 Feb 16 17:49 dlfcn.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 drm
+-rw-r--r--  1 0 0 157043 Feb 16 17:49 elf.h
+-rw-r--r--  1 0 0   2939 Feb 16 17:49 endian.h
+-rw-r--r--  1 0 0   2866 Feb 16 17:49 envz.h
+-rw-r--r--  1 0 0   2210 Feb 16 17:49 err.h
+-rw-r--r--  1 0 0   2367 Feb 16 17:49 errno.h
+-rw-r--r--  1 0 0   2039 Feb 16 17:49 error.h
+-rw-r--r--  1 0 0   1522 Feb 16 17:49 execinfo.h
+-rw-r--r--  1 0 0   9122 Feb 16 17:49 fcntl.h
+-rw-r--r--  1 0 0  13018 Feb 16 17:48 features.h
+-rw-r--r--  1 0 0   4590 Feb 16 17:49 fenv.h
+-rw-r--r--  1 0 0   3239 Feb 16 17:49 fmtmsg.h
+-rw-r--r--  1 0 0   2295 Feb 16 17:49 fnmatch.h
+-rw-r--r--  1 0 0   3111 Feb 16 17:49 fstab.h
+-rw-r--r--  1 0 0   5290 Feb 16 17:49 fts.h
+-rw-r--r--  1 0 0   5251 Feb 16 17:49 ftw.h
+-rw-r--r--  1 0 0  30929 Dec 23 18:12 gawkapi.h
+-rw-r--r--  1 0 0   1287 Feb 16 17:49 _G_config.h
+-rw-r--r--  1 0 0   4415 Feb 16 17:48 gconv.h
+-rw-r--r--  1 0 0   6644 Feb 16 17:49 getopt.h
+-rw-r--r--  1 0 0   6606 Feb 16 17:49 glob.h
+-rw-r--r--  1 0 0   2912 Feb 15 06:13 gnumake.h
+-rw-r--r--  1 0 0   2342 Feb 16 17:48 gnu-versions.h
+-rw-r--r--  1 0 0   6763 Feb 16 17:49 grp.h
+-rw-r--r--  1 0 0   4539 Feb 16 17:49 gshadow.h
+drwxr-xr-x  9 0 0   4096 Feb 17 07:40 i386-linux-gnu
+-rw-r--r--  1 0 0   1857 Feb 16 17:48 iconv.h
+-rw-r--r--  1 0 0   2840 Feb 16 17:49 ifaddrs.h
+-rw-r--r--  1 0 0  11892 Feb 16 17:49 inttypes.h
+-rw-r--r--  1 0 0  15920 Feb 16 17:48 langinfo.h
+-rw-r--r--  1 0 0    126 Feb 16 17:49 lastlog.h
+-rw-r--r--  1 0 0   1385 Feb 16 17:49 libgen.h
+-rw-r--r--  1 0 0   4579 Feb 16 17:49 libintl.h
+-rw-r--r--  1 0 0  17248 Feb 16 17:49 libio.h
+drwxr-xr-x  3 0 0   4096 Nov 29  2011 libxml2
+-rw-r--r--  1 0 0   4489 Feb 16 17:48 limits.h
+-rw-r--r--  1 0 0   7206 Feb 16 17:49 link.h
+drwxr-xr-x 25 0 0  53248 Feb 17 07:40 linux
+-rw-r--r--  1 0 0   7941 Feb 16 17:48 locale.h
+-rw-r--r--  1 0 0   6232 Feb 16 17:49 malloc.h
+-rw-r--r--  1 0 0  16475 Feb 16 17:49 math.h
+-rw-r--r--  1 0 0   2434 Feb 16 17:49 mcheck.h
+-rw-r--r--  1 0 0    955 Feb 16 17:49 memory.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 misc
+-rw-r--r--  1 0 0   3369 Feb 16 17:49 mntent.h
+-rw-r--r--  1 0 0   1733 Feb 16 17:49 monetary.h
+-rw-r--r--  1 0 0   3778 Feb 16 17:49 mqueue.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 mtd
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 net
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netash
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netatalk
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netax25
+-rw-r--r--  1 0 0  28055 Feb 16 17:49 netdb.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 neteconet
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netinet
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netipx
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netiucv
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netpacket
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netrom
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 netrose
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 nfs
+-rw-r--r--  1 0 0   1752 Feb 16 17:49 nl_types.h
+-rw-r--r--  1 0 0   1878 Feb 16 17:49 nss.h
+-rw-r--r--  1 0 0  21306 Feb 16 17:49 obstack.h
+-rw-r--r--  1 0 0   2983 Feb 16 17:49 paths.h
+-rw-r--r--  1 0 0     22 Feb 16 17:49 poll.h
+-rw-r--r--  1 0 0   6695 Feb 16 17:49 printf.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 protocols
+-rw-r--r--  1 0 0  41350 Feb 16 17:49 pthread.h
+-rw-r--r--  1 0 0   1536 Feb 16 17:49 pty.h
+-rw-r--r--  1 0 0   5884 Feb 16 17:49 pwd.h
+drwxr-xr-x  3 0 0   4096 Feb 17 07:40 rdma
+-rw-r--r--  1 0 0    962 Feb 16 17:49 re_comp.h
+-rw-r--r--  1 0 0  22049 Feb 16 17:49 regex.h
+-rw-r--r--  1 0 0   7018 Feb 16 17:49 regexp.h
+drwxr-xr-x  2 0 0   4096 Jan 20 09:03 reglib
+-rw-r--r--  1 0 0  14862 Feb 16 17:49 resolv.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 rpc
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 rpcsvc
+-rw-r--r--  1 0 0   4659 Feb 16 17:49 sched.h
+drwxr-xr-x  3 0 0   4096 Feb 17 07:40 scsi
+-rw-r--r--  1 0 0   5223 Feb 16 17:49 search.h
+-rw-r--r--  1 0 0   2402 Feb 16 17:49 semaphore.h
+-rw-r--r--  1 0 0   3774 Feb 16 17:49 setjmp.h
+-rw-r--r--  1 0 0   1343 Feb 16 17:49 sgtty.h
+-rw-r--r--  1 0 0   5206 Feb 16 17:49 shadow.h
+-rw-r--r--  1 0 0  12271 Feb 16 17:49 signal.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 sound
+-rw-r--r--  1 0 0   6667 Feb 16 17:49 spawn.h
+-rw-r--r--  1 0 0    264 Feb 16 17:49 stab.h
+-rw-r--r--  1 0 0   2153 Feb 16 17:48 stdc-predef.h
+-rw-r--r--  1 0 0   8094 Feb 16 17:49 stdint.h
+-rw-r--r--  1 0 0   2799 Feb 16 17:49 stdio_ext.h
+-rw-r--r--  1 0 0  31365 Feb 16 17:49 stdio.h
+-rw-r--r--  1 0 0  33686 Feb 16 17:49 stdlib.h
+-rw-r--r--  1 0 0  22410 Feb 16 17:49 string.h
+-rw-r--r--  1 0 0   4890 Feb 16 17:49 strings.h
+-rw-r--r--  1 0 0   3047 Feb 16 17:49 stropts.h
+-rw-r--r--  1 0 0   7718 Sep 22 12:19 sudo_plugin.h
+-rw-r--r--  1 0 0     25 Feb 16 17:49 syscall.h
+-rw-r--r--  1 0 0   5232 Feb 16 17:49 sysexits.h
+-rw-r--r--  1 0 0     24 Feb 16 17:49 syslog.h
+-rw-r--r--  1 0 0   3785 Feb 16 17:49 tar.h
+-rw-r--r--  1 0 0    214 Feb 16 17:49 termio.h
+-rw-r--r--  1 0 0   3582 Feb 16 17:49 termios.h
+-rw-r--r--  1 0 0  18497 Feb 16 17:49 tgmath.h
+-rw-r--r--  1 0 0  16015 Feb 16 17:49 thread_db.h
+-rw-r--r--  1 0 0  13543 Feb 16 17:49 time.h
+-rw-r--r--  1 0 0   2494 Feb 16 17:49 ttyent.h
+drwxr-xr-x  2 0 0   4096 Jan 18 12:18 uapi
+-rw-r--r--  1 0 0   2482 Feb 16 17:49 uchar.h
+-rw-r--r--  1 0 0   1937 Feb 16 17:49 ucontext.h
+-rw-r--r--  1 0 0   1583 Feb 16 17:49 ulimit.h
+-rw-r--r--  1 0 0  41986 Feb 16 17:49 unistd.h
+-rw-r--r--  1 0 0     23 Feb 16 17:49 ustat.h
+-rw-r--r--  1 0 0   1511 Feb 16 17:49 utime.h
+-rw-r--r--  1 0 0   3222 Feb 16 17:49 utmp.h
+-rw-r--r--  1 0 0   4099 Feb 16 17:49 utmpx.h
+-rw-r--r--  1 0 0   1955 Feb 16 17:48 values.h
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 video
+-rw-r--r--  1 0 0     22 Feb 16 17:49 wait.h
+-rw-r--r--  1 0 0  31999 Feb 16 17:49 wchar.h
+-rw-r--r--  1 0 0  11130 Feb 16 17:49 wctype.h
+-rw-r--r--  1 0 0   2501 Feb 16 17:49 wordexp.h
+drwxr-xr-x  2 0 0   4096 Dec  9  2014 X11
+drwxr-xr-x  2 0 0   4096 Feb 17 07:40 xen
+drwxr-xr-x  2 0 0   4096 Nov 27 06:13 xfs
+-rw-r--r--  1 0 0   1689 Feb 16 17:48 xlocale.h
+% ls -F
+aio.h		 dlfcn.h      gconv.h	       linux/	   netiucv/    reglib/	      stdlib.h	     unistd.h
+aliases.h	 drm/	      getopt.h	       locale.h    netpacket/  resolv.h       string.h	     ustat.h
+alloca.h	 elf.h	      glob.h	       malloc.h    netrom/     rpc/	      strings.h      utime.h
+archive_entry.h  endian.h     gnumake.h        math.h	   netrose/    rpcsvc/	      stropts.h      utmp.h
+archive.h	 envz.h       gnu-versions.h   mcheck.h    nfs/        sched.h	      sudo_plugin.h  utmpx.h
+argp.h		 err.h	      grp.h	       memory.h    nl_types.h  scsi/	      syscall.h      values.h
+argz.h		 errno.h      gshadow.h        misc/	   nss.h       search.h       sysexits.h     video/
+ar.h		 error.h      i386-linux-gnu/  mntent.h    obstack.h   semaphore.h    syslog.h	     wait.h
+arpa/		 execinfo.h   iconv.h	       monetary.h  paths.h     setjmp.h       tar.h	     wchar.h
+asm-generic/	 fcntl.h      ifaddrs.h        mqueue.h    poll.h      sgtty.h	      termio.h	     wctype.h
+assert.h	 features.h   inttypes.h       mtd/	   printf.h    shadow.h       termios.h      wordexp.h
+btrfs/		 fenv.h       langinfo.h       net/	   protocols/  signal.h       tgmath.h	     X11/
+byteswap.h	 fmtmsg.h     lastlog.h        netash/	   pthread.h   sound/	      thread_db.h    xen/
+c++/		 fnmatch.h    libgen.h	       netatalk/   pty.h       spawn.h	      time.h	     xfs/
+complex.h	 fstab.h      libintl.h        netax25/    pwd.h       stab.h	      ttyent.h	     xlocale.h
+cpio.h		 fts.h	      libio.h	       netdb.h	   rdma/       stdc-predef.h  uapi/
+crypt.h		 ftw.h	      libxml2/	       neteconet/  re_comp.h   stdint.h       uchar.h
+ctype.h		 gawkapi.h    limits.h	       netinet/    regex.h     stdio_ext.h    ucontext.h
+dirent.h	 _G_config.h  link.h	       netipx/	   regexp.h    stdio.h	      ulimit.h
+% ls -t
+asm-generic	netipx	   ifaddrs.h	regexp.h    fnmatch.h	envz.h	     stdlib.h	     limits.h
+drm		netiucv    thread_db.h	search.h    getopt.h	malloc.h     ucontext.h      stdc-predef.h
+misc		netpacket  execinfo.h	sgtty.h     glob.h	mcheck.h     setjmp.h	     values.h
+rdma		netrom	   aio.h	stab.h	    grp.h	memory.h     signal.h	     gnumake.h
+scsi		netrose    mqueue.h	syscall.h   pwd.h	obstack.h    complex.h	     btrfs
+video		protocols  pthread.h	sysexits.h  re_comp.h	string.h     fenv.h	     reglib
+xen		rpc	   semaphore.h	syslog.h    regex.h	strings.h    math.h	     c++
+linux		rpcsvc	   argp.h	ttyent.h    sched.h	dlfcn.h      tgmath.h	     uapi
+mtd		elf.h	   crypt.h	ulimit.h    tar.h	_G_config.h  libintl.h	     gawkapi.h
+sound		lastlog.h  gshadow.h	ustat.h     unistd.h	libio.h      nl_types.h      xfs
+nfs		link.h	   shadow.h	cpio.h	    wait.h	stdio.h      assert.h	     sudo_plugin.h
+arpa		pty.h	   wctype.h	fcntl.h     wordexp.h	alloca.h     ctype.h	     archive_entry.h
+i386-linux-gnu	utmp.h	   ar.h		fts.h	    dirent.h	errno.h      gconv.h	     archive.h
+net		utmpx.h    err.h	ftw.h	    time.h	fmtmsg.h     iconv.h	     X11
+netash		stropts.h  error.h	poll.h	    uchar.h	inttypes.h   langinfo.h      libxml2
+netatalk	nss.h	   fstab.h	spawn.h     wchar.h	monetary.h   locale.h
+netax25		netdb.h    libgen.h	termio.h    argz.h	printf.h     xlocale.h
+neteconet	resolv.h   mntent.h	termios.h   byteswap.h	stdint.h     features.h
+netinet		aliases.h  paths.h	utime.h     endian.h	stdio_ext.h  gnu-versions.h
+% exit
+jrm43@unix:~/Project1$ exit
+exit

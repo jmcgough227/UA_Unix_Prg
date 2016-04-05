@@ -1,0 +1,22 @@
+#!/bin/bash
+
+LINUX="/usr/local/src/linux/"
+
+echo -n "Linux's largest file: "
+find $LINUX -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2
+
+echo -n "Linus's .c files: "
+find $LINUX -name "*.c" | xargs -I"%" grep "Linus Torvalds" % | wc -l
+
+echo -n "Linus's .h files: "
+find $LINUX -name "*.h" | xargs -I"%" grep "Linus Torvalds" % | wc -l
+
+echo -n "Unrelated files: "
+find $LINUX -name "*.c" -o -name "*.h" | cut -d"." -f1 | uniq -c
+
+echo -n "Linus's largest source file: "
+find $LINUX -name "*.h" -o -name "*.c" | xargs -I"%" grep -l "Linus Torvalds" % | cat -
+
+echo -n "Linus's top ten files: "
+echo
+
