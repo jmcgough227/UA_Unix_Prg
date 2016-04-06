@@ -1,7 +1,7 @@
 /*
-  pthreads.c
+  random.c
 
-  A plethora of threads
+  Generates a number of random values, and sums them
 
   Michael L. Collard
   collard@uakron.edu
@@ -16,6 +16,12 @@
 #include <time.h>
 #include <pthread.h>
 
+// total of all random numbers
+int totalnum = 0;
+
+// mutex for totalnum
+pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
+
 struct threaddata_t {
   int id;
   int status;
@@ -23,13 +29,23 @@ struct threaddata_t {
 };
 
 // do something in a pthread
-void* process_thread(void* args) {
+void* random_thread(void* args) {
 
   // unpack the args
   struct threaddata_t* data = args;
 
   // trace that we started
   fprintf(stderr, "Process %d starting\n", data->id);
+
+  // generate a random number
+  int num = time(NULL) + data->id;
+
+  fprintf(stderr, "Random data: %d\n", num);
+
+  // update the global counter
+  pthread_mutex_lock(&lock);
+  totalnum = totalnum + num;
+  pthread_mutex_unlock(&lock);
   
   // trace that we ended
   fprintf(stderr, "Process %d ending\n", data->id);
@@ -55,7 +71,7 @@ int main(int argc, char* argv[]) {
     threadinfo[i].id = i;
 
     // use the thread to do some work
-    pthread_create(&threadinfo[i].tid, NULL, process_thread, &threadinfo[i]);
+    pthread_create(&threadinfo[i].tid, NULL, random_thread, &threadinfo[i]);
 
     // trace that we started
     fprintf(stderr, "Main %d starting\n", threadinfo[i].id);
@@ -71,6 +87,8 @@ int main(int argc, char* argv[]) {
 
     fprintf(stderr, "Main %d finished\n", threadinfo[i].id);
   }
+
+  fprintf(stdout, "Total: %d\n", totalnum);
   
   return 0;
 }
