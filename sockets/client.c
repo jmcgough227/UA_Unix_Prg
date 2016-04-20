@@ -10,13 +10,13 @@
 #include <arpa/inet.h>
 
 // destination IP address
-const char* DEST_IP = "130.101.10.8";
+const char* DEST_IP = "130.101.10.109";
 
 // destination IP port
-const int DEST_PORT = 80;
+const int DEST_PORT = 8080;
 
 // request to send to the destination
-const char* REQUEST = "GET /~collard/cs428/index.html HTTP/1.1\nHost: www.cs.uakron.edu\n\n";
+const char* REQUEST = "What does the server say?";
 
 int main(int argc, char argv[]) {
   int sockfd = socket(PF_INET, SOCK_STREAM, 0);
